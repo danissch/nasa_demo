@@ -3,19 +3,71 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E318E0725092BC400984756 /* ImageDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E318E0625092BC400984756 /* ImageDetailViewController.xib */; };
+		8E318E0925092BDA00984756 /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E318E0825092BDA00984756 /* ImageDetailViewController.swift */; };
+		8E5521D7250476A100D186C6 /* ApodApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5521D6250476A100D186C6 /* ApodApi.swift */; };
+		8E5521D9250482A400D186C6 /* NasaConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5521D8250482A400D186C6 /* NasaConfiguration.swift */; };
+		8E5521DA2504870100D186C6 /* Pods_nasa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3E7A9EECC230A324715934 /* Pods_nasa.framework */; };
+		8E5521DE2504A6D600D186C6 /* ApodModelRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5521DD2504A6D600D186C6 /* ApodModelRes.swift */; };
+		8E5521E02504B82700D186C6 /* ApodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5521DF2504B82700D186C6 /* ApodViewModel.swift */; };
+		8E5521E2250552AB00D186C6 /* ApodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5521E1250552AB00D186C6 /* ApodModel.swift */; };
+		8E5521E4250552BD00D186C6 /* ApodListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5521E3250552BD00D186C6 /* ApodListModel.swift */; };
+		8E5521E725056F7A00D186C6 /* ApodManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5521E625056F7A00D186C6 /* ApodManager.swift */; };
+		8E5521EA250571AF00D186C6 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5521E9250571AF00D186C6 /* DateExtension.swift */; };
+		8E5521EC2505988E00D186C6 /* ApodListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5521EB2505988D00D186C6 /* ApodListCollectionViewCell.xib */; };
+		8E5521EE250598BB00D186C6 /* ApodListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5521ED250598BB00D186C6 /* ApodListCollectionViewCell.swift */; };
+		8E5521F42506C5F100D186C6 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5521F32506C5F100D186C6 /* UIViewControllerExtension.swift */; };
+		8E5521F62506CA9200D186C6 /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5521F52506CA9200D186C6 /* NSObjectExtension.swift */; };
+		8E5522002507CF3F00D186C6 /* ApodDetailContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5521FE2507CF3F00D186C6 /* ApodDetailContentTableViewCell.swift */; };
+		8E5522012507CF3F00D186C6 /* ApodDetailContentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5521FF2507CF3F00D186C6 /* ApodDetailContentTableViewCell.xib */; };
+		8E5522042507F1FD00D186C6 /* ApodDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5521EF2506C48000D186C6 /* ApodDetailTableViewController.swift */; };
+		8E5522052507F20400D186C6 /* ApodDetailTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5521F02506C48000D186C6 /* ApodDetailTableViewController.xib */; };
+		8E5522072507F57300D186C6 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5522062507F57300D186C6 /* UIImageViewExtension.swift */; };
+		8E5522082508047900D186C6 /* ApodDetailMediaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5521FB2507CEED00D186C6 /* ApodDetailMediaTableViewCell.xib */; };
+		8E5522092508048C00D186C6 /* ApodDetailMediaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5521FA2507CEED00D186C6 /* ApodDetailMediaTableViewCell.swift */; };
+		8E55220D25082DFF00D186C6 /* BottomSheetDatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E55220C25082DFF00D186C6 /* BottomSheetDatePickerViewController.swift */; };
+		8E55220F250830FB00D186C6 /* BottomSheetDatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E55220E250830FB00D186C6 /* BottomSheetDatePickerViewController.xib */; };
 		8EFCA9F62502F24100AB90C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCA9F52502F24100AB90C0 /* AppDelegate.swift */; };
 		8EFCA9F82502F24100AB90C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCA9F72502F24100AB90C0 /* SceneDelegate.swift */; };
 		8EFCA9FA2502F24100AB90C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCA9F92502F24100AB90C0 /* ViewController.swift */; };
 		8EFCA9FD2502F24100AB90C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFCA9FB2502F24100AB90C0 /* Main.storyboard */; };
 		8EFCA9FF2502F24600AB90C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFCA9FE2502F24600AB90C0 /* Assets.xcassets */; };
 		8EFCAA022502F24600AB90C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFCAA002502F24600AB90C0 /* LaunchScreen.storyboard */; };
+		8EFCAA0A2502F93300AB90C0 /* ApodService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCAA092502F93300AB90C0 /* ApodService.swift */; };
+		8EFCAA12250300CF00AB90C0 /* ApiAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCAA11250300CF00AB90C0 /* ApiAdapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C0B0E9EDCCFD16BD86D9B52 /* Pods-nasa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nasa.debug.xcconfig"; path = "Target Support Files/Pods-nasa/Pods-nasa.debug.xcconfig"; sourceTree = "<group>"; };
+		3C2287824367F45678C9A0DB /* Pods-nasa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nasa.release.xcconfig"; path = "Target Support Files/Pods-nasa/Pods-nasa.release.xcconfig"; sourceTree = "<group>"; };
+		4F3E7A9EECC230A324715934 /* Pods_nasa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nasa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E318E0625092BC400984756 /* ImageDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageDetailViewController.xib; sourceTree = "<group>"; };
+		8E318E0825092BDA00984756 /* ImageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
+		8E5521D6250476A100D186C6 /* ApodApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodApi.swift; sourceTree = "<group>"; };
+		8E5521D8250482A400D186C6 /* NasaConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaConfiguration.swift; sourceTree = "<group>"; };
+		8E5521DD2504A6D600D186C6 /* ApodModelRes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodModelRes.swift; sourceTree = "<group>"; };
+		8E5521DF2504B82700D186C6 /* ApodViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodViewModel.swift; sourceTree = "<group>"; };
+		8E5521E1250552AB00D186C6 /* ApodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodModel.swift; sourceTree = "<group>"; };
+		8E5521E3250552BD00D186C6 /* ApodListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodListModel.swift; sourceTree = "<group>"; };
+		8E5521E625056F7A00D186C6 /* ApodManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodManager.swift; sourceTree = "<group>"; };
+		8E5521E9250571AF00D186C6 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		8E5521EB2505988D00D186C6 /* ApodListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ApodListCollectionViewCell.xib; sourceTree = "<group>"; };
+		8E5521ED250598BB00D186C6 /* ApodListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodListCollectionViewCell.swift; sourceTree = "<group>"; };
+		8E5521EF2506C48000D186C6 /* ApodDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodDetailTableViewController.swift; sourceTree = "<group>"; };
+		8E5521F02506C48000D186C6 /* ApodDetailTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ApodDetailTableViewController.xib; sourceTree = "<group>"; };
+		8E5521F32506C5F100D186C6 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		8E5521F52506CA9200D186C6 /* NSObjectExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
+		8E5521FA2507CEED00D186C6 /* ApodDetailMediaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodDetailMediaTableViewCell.swift; sourceTree = "<group>"; };
+		8E5521FB2507CEED00D186C6 /* ApodDetailMediaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ApodDetailMediaTableViewCell.xib; sourceTree = "<group>"; };
+		8E5521FE2507CF3F00D186C6 /* ApodDetailContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodDetailContentTableViewCell.swift; sourceTree = "<group>"; };
+		8E5521FF2507CF3F00D186C6 /* ApodDetailContentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ApodDetailContentTableViewCell.xib; sourceTree = "<group>"; };
+		8E5522062507F57300D186C6 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		8E55220C25082DFF00D186C6 /* BottomSheetDatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetDatePickerViewController.swift; sourceTree = "<group>"; };
+		8E55220E250830FB00D186C6 /* BottomSheetDatePickerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BottomSheetDatePickerViewController.xib; sourceTree = "<group>"; };
 		8EFCA9F22502F24100AB90C0 /* nasa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nasa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EFCA9F52502F24100AB90C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EFCA9F72502F24100AB90C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +76,8 @@
 		8EFCA9FE2502F24600AB90C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EFCAA012502F24600AB90C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EFCAA032502F24600AB90C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EFCAA092502F93300AB90C0 /* ApodService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodService.swift; sourceTree = "<group>"; };
+		8EFCAA11250300CF00AB90C0 /* ApiAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiAdapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +85,80 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E5521DA2504870100D186C6 /* Pods_nasa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E5521E525056EDD00D186C6 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				8E5521E625056F7A00D186C6 /* ApodManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		8E5521E82505716200D186C6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8E5521E9250571AF00D186C6 /* DateExtension.swift */,
+				8E5521F32506C5F100D186C6 /* UIViewControllerExtension.swift */,
+				8E5521F52506CA9200D186C6 /* NSObjectExtension.swift */,
+				8E5522062507F57300D186C6 /* UIImageViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8E5521F72507CDB100D186C6 /* ApodList */ = {
+			isa = PBXGroup;
+			children = (
+				8E5521EB2505988D00D186C6 /* ApodListCollectionViewCell.xib */,
+				8E5521ED250598BB00D186C6 /* ApodListCollectionViewCell.swift */,
+			);
+			path = ApodList;
+			sourceTree = "<group>";
+		};
+		8E5521F82507CDCA00D186C6 /* ApodDetail */ = {
+			isa = PBXGroup;
+			children = (
+				8E5521F92507CE2A00D186C6 /* CustomCell */,
+				8E5521EF2506C48000D186C6 /* ApodDetailTableViewController.swift */,
+				8E5521F02506C48000D186C6 /* ApodDetailTableViewController.xib */,
+				8E318E0625092BC400984756 /* ImageDetailViewController.xib */,
+				8E318E0825092BDA00984756 /* ImageDetailViewController.swift */,
+			);
+			path = ApodDetail;
+			sourceTree = "<group>";
+		};
+		8E5521F92507CE2A00D186C6 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				8E5521FA2507CEED00D186C6 /* ApodDetailMediaTableViewCell.swift */,
+				8E5521FB2507CEED00D186C6 /* ApodDetailMediaTableViewCell.xib */,
+				8E5521FE2507CF3F00D186C6 /* ApodDetailContentTableViewCell.swift */,
+				8E5521FF2507CF3F00D186C6 /* ApodDetailContentTableViewCell.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		8E55220B250829C300D186C6 /* ApodDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				8E55220C25082DFF00D186C6 /* BottomSheetDatePickerViewController.swift */,
+				8E55220E250830FB00D186C6 /* BottomSheetDatePickerViewController.xib */,
+			);
+			path = ApodDatePicker;
+			sourceTree = "<group>";
+		};
 		8EFCA9E92502F24100AB90C0 = {
 			isa = PBXGroup;
 			children = (
 				8EFCA9F42502F24100AB90C0 /* nasa */,
 				8EFCA9F32502F24100AB90C0 /* Products */,
+				C25F7F1C15CE86C2E5E98455 /* Pods */,
+				D380916E0676B014F497B702 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +173,10 @@
 		8EFCA9F42502F24100AB90C0 /* nasa */ = {
 			isa = PBXGroup;
 			children = (
+				8E5521E82505716200D186C6 /* Extensions */,
+				8E5521E525056EDD00D186C6 /* Managers */,
+				8EFCAA102502FCED00AB90C0 /* NetworkServices */,
+				8EFCAA0B2502FC2400AB90C0 /* Modules */,
 				8EFCA9F52502F24100AB90C0 /* AppDelegate.swift */,
 				8EFCA9F72502F24100AB90C0 /* SceneDelegate.swift */,
 				8EFCA9F92502F24100AB90C0 /* ViewController.swift */,
@@ -67,6 +188,80 @@
 			path = nasa;
 			sourceTree = "<group>";
 		};
+		8EFCAA0B2502FC2400AB90C0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				8EFCAA0C2502FC3100AB90C0 /* Apod */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		8EFCAA0C2502FC3100AB90C0 /* Apod */ = {
+			isa = PBXGroup;
+			children = (
+				8EFCAA0F2502FCDD00AB90C0 /* Views */,
+				8EFCAA0E2502FCD200AB90C0 /* ViewModels */,
+				8EFCAA0D2502FC4100AB90C0 /* Models */,
+			);
+			path = Apod;
+			sourceTree = "<group>";
+		};
+		8EFCAA0D2502FC4100AB90C0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E5521DD2504A6D600D186C6 /* ApodModelRes.swift */,
+				8E5521E1250552AB00D186C6 /* ApodModel.swift */,
+				8E5521E3250552BD00D186C6 /* ApodListModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8EFCAA0E2502FCD200AB90C0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8E5521DF2504B82700D186C6 /* ApodViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8EFCAA0F2502FCDD00AB90C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8E55220B250829C300D186C6 /* ApodDatePicker */,
+				8E5521F82507CDCA00D186C6 /* ApodDetail */,
+				8E5521F72507CDB100D186C6 /* ApodList */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8EFCAA102502FCED00AB90C0 /* NetworkServices */ = {
+			isa = PBXGroup;
+			children = (
+				8EFCAA092502F93300AB90C0 /* ApodService.swift */,
+				8EFCAA11250300CF00AB90C0 /* ApiAdapter.swift */,
+				8E5521D6250476A100D186C6 /* ApodApi.swift */,
+				8E5521D8250482A400D186C6 /* NasaConfiguration.swift */,
+			);
+			path = NetworkServices;
+			sourceTree = "<group>";
+		};
+		C25F7F1C15CE86C2E5E98455 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C0B0E9EDCCFD16BD86D9B52 /* Pods-nasa.debug.xcconfig */,
+				3C2287824367F45678C9A0DB /* Pods-nasa.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D380916E0676B014F497B702 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F3E7A9EECC230A324715934 /* Pods_nasa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +269,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EFCAA062502F24600AB90C0 /* Build configuration list for PBXNativeTarget "nasa" */;
 			buildPhases = (
+				E15247EF686AB63C043E0F42 /* [CP] Check Pods Manifest.lock */,
 				8EFCA9EE2502F24100AB90C0 /* Sources */,
 				8EFCA9EF2502F24100AB90C0 /* Frameworks */,
 				8EFCA9F02502F24100AB90C0 /* Resources */,
+				8334974BC315D166D51907CA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,20 +322,87 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E5522052507F20400D186C6 /* ApodDetailTableViewController.xib in Resources */,
+				8E55220F250830FB00D186C6 /* BottomSheetDatePickerViewController.xib in Resources */,
 				8EFCAA022502F24600AB90C0 /* LaunchScreen.storyboard in Resources */,
 				8EFCA9FF2502F24600AB90C0 /* Assets.xcassets in Resources */,
+				8E5521EC2505988E00D186C6 /* ApodListCollectionViewCell.xib in Resources */,
+				8E5522012507CF3F00D186C6 /* ApodDetailContentTableViewCell.xib in Resources */,
 				8EFCA9FD2502F24100AB90C0 /* Main.storyboard in Resources */,
+				8E318E0725092BC400984756 /* ImageDetailViewController.xib in Resources */,
+				8E5522082508047900D186C6 /* ApodDetailMediaTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8334974BC315D166D51907CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nasa/Pods-nasa-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nasa/Pods-nasa-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nasa/Pods-nasa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E15247EF686AB63C043E0F42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nasa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8EFCA9EE2502F24100AB90C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E5521EE250598BB00D186C6 /* ApodListCollectionViewCell.swift in Sources */,
+				8E5521F62506CA9200D186C6 /* NSObjectExtension.swift in Sources */,
 				8EFCA9FA2502F24100AB90C0 /* ViewController.swift in Sources */,
+				8E5521E02504B82700D186C6 /* ApodViewModel.swift in Sources */,
+				8E5521E4250552BD00D186C6 /* ApodListModel.swift in Sources */,
+				8E5521F42506C5F100D186C6 /* UIViewControllerExtension.swift in Sources */,
+				8E55220D25082DFF00D186C6 /* BottomSheetDatePickerViewController.swift in Sources */,
+				8E5521E725056F7A00D186C6 /* ApodManager.swift in Sources */,
+				8E5522092508048C00D186C6 /* ApodDetailMediaTableViewCell.swift in Sources */,
+				8EFCAA0A2502F93300AB90C0 /* ApodService.swift in Sources */,
+				8E5522042507F1FD00D186C6 /* ApodDetailTableViewController.swift in Sources */,
+				8E5522002507CF3F00D186C6 /* ApodDetailContentTableViewCell.swift in Sources */,
+				8E5522072507F57300D186C6 /* UIImageViewExtension.swift in Sources */,
+				8E318E0925092BDA00984756 /* ImageDetailViewController.swift in Sources */,
+				8E5521EA250571AF00D186C6 /* DateExtension.swift in Sources */,
+				8E5521E2250552AB00D186C6 /* ApodModel.swift in Sources */,
+				8E5521D7250476A100D186C6 /* ApodApi.swift in Sources */,
+				8EFCAA12250300CF00AB90C0 /* ApiAdapter.swift in Sources */,
+				8E5521DE2504A6D600D186C6 /* ApodModelRes.swift in Sources */,
+				8E5521D9250482A400D186C6 /* NasaConfiguration.swift in Sources */,
 				8EFCA9F62502F24100AB90C0 /* AppDelegate.swift in Sources */,
 				8EFCA9F82502F24100AB90C0 /* SceneDelegate.swift in Sources */,
 			);
@@ -216,7 +480,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +534,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,16 +546,21 @@
 		};
 		8EFCAA072502F24600AB90C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C0B0E9EDCCFD16BD86D9B52 /* Pods-nasa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44558RF7PG;
 				INFOPLIST_FILE = nasa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = co.soyyo.nasa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,16 +568,21 @@
 		};
 		8EFCAA082502F24600AB90C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C2287824367F45678C9A0DB /* Pods-nasa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44558RF7PG;
 				INFOPLIST_FILE = nasa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = co.soyyo.nasa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -324,7 +598,7 @@
 				8EFCAA052502F24600AB90C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		8EFCAA062502F24600AB90C0 /* Build configuration list for PBXNativeTarget "nasa" */ = {
 			isa = XCConfigurationList;
@@ -333,7 +607,7 @@
 				8EFCAA082502F24600AB90C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
